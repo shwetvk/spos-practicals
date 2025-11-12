@@ -1,0 +1,64 @@
+
+  #Class File :
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace classLib123
+{
+    public static class one
+    {
+
+
+       public static int add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int sub(int a, int b)
+        {
+            return a - b;
+        }
+
+        public static int mul(int a, int b)
+        {
+            return a * b;
+        }
+
+        public static int div(int a, int b)
+        {
+            return a / b;
+        }
+
+    } 
+}
+
+
+
+  #Console Application :
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using classLib123;
+
+namespace ConsoleApp123
+{
+   public static class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(one.add(2, 4));
+            Console.WriteLine(one.sub(6, 4));
+            Console.WriteLine(one.mul(2, 4));
+            Console.WriteLine(one.div(8, 4));
+            Console.ReadKey();
+        }
+
+
+Screenshot:
